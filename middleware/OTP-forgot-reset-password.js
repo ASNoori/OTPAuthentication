@@ -17,12 +17,12 @@ const forgotPasswordOTP = async (req, res, next) => {
     const transporter = nodemailer.createTransport({
       service: "hotmail",
       auth: {
-        user: "nooriameer12@outlook.com",
-        pass: "thisismymicrosoftacc!",
+        user: "n@outlook.com",
+        pass: "********",
       },
     });
     const data = {
-      from: "nooriameer12@outlook.com",
+      from: "n@outlook.com",
       to: email,
       subject: "OTP for Password Reset",
       text: "Wow that's simple",
