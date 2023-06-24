@@ -93,13 +93,13 @@ const forgotPassword = (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "hotmail",
       auth: {
-        user: "nooriameer12@outlook.com",
-        pass: "thisismymicrosoftacc!",
+        user: "n@outlook.com",
+        pass: "*********",
       },
     });
 
     const data = {
-      from: "nooriameer12@outlook.com",
+      from: "n@outlook.com",
       to: email,
       subject: "Password Reset Link",
       text: "Wow that's simple",
